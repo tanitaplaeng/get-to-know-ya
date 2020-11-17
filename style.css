@@ -1,0 +1,107 @@
+body { 
+    /* background-color: #85a392; */
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+}
+
+p { 
+    /* font-family: 'Montserrat', sans-serif; */
+    line-height: 2;
+}
+
+a { 
+    color: #438a5e;
+}
+
+a:hover { 
+    color: #79d70f;
+}
+
+.heading { 
+    font-size: 3rem;
+}
+
+.subheading { 
+    font-size: 2rem;
+}
+
+.responsive { 
+    width: 100%;
+    height: auto;
+}
+
+/* INTRO */
+
+.spaceship { 
+    width: 500px;
+}
+
+.heading-img {
+    background-color: #f4f7c5;
+    padding-bottom: 4%;
+}
+
+.heading-text { 
+    margin: 5% auto;
+}
+
+.heading-body { 
+    margin-bottom: 5%;
+}
+
+.disclaimer { 
+    font-size: .75rem;
+    text-align: left;
+}
+
+/* FORM */
+
+#form { 
+    text-align: left;
+    /* margin: 2% 5%; */
+}
+
+.rounded-corners { 
+    border: 1px solid grey;
+    border-radius: 1.2rem;
+    padding: 10px;
+}
+
+.other-explanation { 
+    margin-top: 8px;
+}
+
+/* FOOTER */
+
+#footer { 
+    background-color: #f4f7c5;
+    margin-top: 5%;
+    padding: 5% 0;
+    text-align: center;
+}
+
+@media only screen and (min-width: 900px) {
+    body  { 
+        background-color:#f4f7c5;
+    }
+
+    .heading-body { 
+        text-align: left;
+        padding: 0;
+    }
+
+    .border-box { 
+        background-color: white;
+        border: 2px solid grey;
+        border-radius: 25px;
+        width: 900px;
+        margin: 4% auto;
+        padding: 3% 8%;
+        box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    }
+
+    .heading-img, 
+    #footer { 
+        background-color: white;
+    }
+}
